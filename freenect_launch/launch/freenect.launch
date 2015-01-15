@@ -29,6 +29,7 @@
   <arg name="ir"               default="ir" />
   <arg name="depth"            default="depth" />
   <arg name="depth_registered" default="depth_registered" />
+  <arg name="depth_registered_filtered" default="depth_registered" />
   <arg name="projector"        default="projector" />
 
   <!-- Optionally suppress loading the driver nodelet and/or publishing the default tf
@@ -112,6 +113,7 @@
       <arg name="ir"                              value="$(arg ir)" />
       <arg name="depth"                           value="$(arg depth)" />
       <arg name="depth_registered"                value="$(arg depth_registered)" />
+      <arg name="depth_registered_filtered"       value="$(arg depth_registered_filtered)" />
       <arg name="projector"                       value="$(arg projector)" />
       <arg name="respawn"                         value="$(arg respawn)" />
       <arg name="rgb_processing"                  value="$(arg rgb_processing)" />
